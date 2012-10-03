@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+-webkit-box-shadow: ${1:1}px ${2:1}px ${3:4}px ${4:4}px ${5:#000000};
+   -moz-box-shadow: ${1:1}px ${2:1}px ${3:4}px ${4:4}px ${5:#000000};
+        box-shadow: ${1:1}px ${2:1}px ${3:4}px ${4:4}px ${5:#000000};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>box-shadow</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
