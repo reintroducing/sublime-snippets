@@ -12,7 +12,7 @@ var ${1:ViewName} = Backbone.View.extend({
      *
      */
     render: function() {
-
+        return this;
     }
 });
 ]]></content>
