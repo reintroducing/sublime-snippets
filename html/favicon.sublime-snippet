@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
 <link rel="shortcut icon" href="${1:favicon}.ico">
+<link rel="apple-touch-icon" href="${2:apple-touch-icon}.png">
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>favicon</tabTrigger>
