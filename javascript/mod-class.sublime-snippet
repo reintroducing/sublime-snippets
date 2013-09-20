@@ -1,0 +1,38 @@
+<snippet>
+    <content><![CDATA[
+/**
+@author Matt Przybylski
+**/
+var ${1:main} = (function(\$, document, window, undefined) {
+    'use strict';
+
+    /* ----------------------------------------------------------------------------- *\
+       Public Methods
+    \* ----------------------------------------------------------------------------- */
+
+    /**
+    @method init
+
+    @return {null}
+    **/
+    function init() {
+        ${2}
+    }
+
+    /* ----------------------------------------------------------------------------- *\
+       Private Methods
+    \* ----------------------------------------------------------------------------- */
+
+
+
+    // Expose API publicly
+    return {
+        init: init
+    };
+})(jQuery, document, window);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mod-class</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

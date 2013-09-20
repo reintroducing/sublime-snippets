@@ -1,0 +1,67 @@
+<snippet>
+    <content><![CDATA[
+var ${3:namespace} = ${3:namespace} || {};
+
+/**
+@author [${1:Matt Przybylski}](mailto:${2:mprzybylski@sapient.com})
+**/
+${3:namespace}.${4:ClassName} = (function(\$, window, document, undefined) {
+    'use strict';
+
+    /* ----------------------------------------------------------------------------- *\
+       Private Properties
+    \* ----------------------------------------------------------------------------- */
+
+    var defaults = {
+
+        };
+
+    /* ----------------------------------------------------------------------------- *\
+       Constructor
+    \* ----------------------------------------------------------------------------- */
+
+    /**
+    Description.
+
+    @class ${4:ClassName}
+    @constructor
+    @namespace ${3:namespace}
+
+    @param {object} options The settings used for initialization of ${4:ClassName}
+
+    @return {${4:ClassName}} An instance of the ${4:ClassName} object
+    **/
+    function ${4:ClassName}(options) {
+        this.settings = \$.extend({}, defaults, options);
+
+        this._init();
+    }
+
+    /* ----------------------------------------------------------------------------- *\
+       Private Methods
+    \* ----------------------------------------------------------------------------- */
+
+    /**
+    @method _init
+
+    @return {null}
+    **/
+    ${4:ClassName}.prototype._init = function() {
+        ${6}
+    };
+
+    return ${4:ClassName};
+})(jQuery, window, document);
+
+// Initialize ${4:ClassName}
+jQuery(document).ready(function() {
+    'use strict';
+
+    var ${5:variableName} = new ${3:namespace}.${4:ClassName}();
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>proto-class</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
