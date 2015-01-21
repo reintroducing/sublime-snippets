@@ -1,7 +1,7 @@
-#reintroducing Sublime Text 2 Snippets
+#reintroducing Sublime Text 2/3 Snippets
 
-These are some of my most used snippets for Sublime Text 2.
+These are some of my most used snippets for Sublime Text 2/3.
 
 ##Installation
 
-Clone the repo into ~/Library/Application Support/Sublime Text 2/Packages/User/snippets
+Clone the repo into ~/Library/Application Support/Sublime Text #/Packages/User/snippets
