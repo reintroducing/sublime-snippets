@@ -5,5 +5,5 @@ console.log('%c' + ${1}, 'background-color: #ed1c24; color: #fff; font-weight: b
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>error</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
+    <!-- <scope>source.js</scope> -->
 </snippet>

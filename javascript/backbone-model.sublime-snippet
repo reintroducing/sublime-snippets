@@ -16,5 +16,5 @@ var ${1:ModelName} = Backbone.Model.extend({
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>bb-model</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
+    <!-- <scope>source.js</scope> -->
 </snippet>
