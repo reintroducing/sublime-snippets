@@ -6,8 +6,8 @@ var ${1:ModelName} = Backbone.Model.extend({
     },
 
     /**
-     *
-     */
+
+    **/
     initialize: function() {
         ${3}
     }

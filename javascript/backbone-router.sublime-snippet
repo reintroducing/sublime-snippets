@@ -6,8 +6,8 @@ var ${1:Workspace} = Backbone.Router.extend({
     },
 
     /**
-     *
-     */
+
+    **/
     ${2:showHome}: function() {
         console.log('workspace.${2:showHome}()');
     }

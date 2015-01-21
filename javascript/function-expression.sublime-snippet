@@ -3,12 +3,12 @@
 /**
 
 **/
-function ${1:functionName}(${2:params}) {
+var ${1:functionName} = function(${2:params}) {
     ${3}
-}
+};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>function</tabTrigger>
+    <tabTrigger>funcexpression</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.js</scope> -->
 </snippet>
