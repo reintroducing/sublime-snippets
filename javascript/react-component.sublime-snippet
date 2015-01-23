@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+'use strict';
+
+var React = require('react');
+
+module.exports = React.createClass({
+    render: function() {
+        /* jshint ignore:start */
+        return (
+            ${1:<div>${2}</div>}
+        );
+        /* jshint ignore:end */
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.js</scope> -->
+</snippet>
