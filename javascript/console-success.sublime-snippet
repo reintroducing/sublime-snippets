@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-console.log('%c' + ${1}, 'background-color: #39b54a; color: #fff; font-weight: bold;');${2}
+console.log('%c' + '${1}', 'background-color: #39b54a; color: #fff; font-weight: bold;');${2}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>success</tabTrigger>
