@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+React.render(${1:<App />}, ${2:document.querySelector('${3:.wrapper}')});  // jshint ignore:line
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rr</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.js</scope> -->
+</snippet>
