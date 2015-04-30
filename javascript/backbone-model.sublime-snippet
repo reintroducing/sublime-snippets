@@ -1,13 +1,12 @@
 <snippet>
     <content><![CDATA[
+'use strict';
+
 var ${1:ModelName} = Backbone.Model.extend({
     defaults: {
         ${2}
     },
 
-    /**
-
-    **/
     initialize: function() {
         ${3}
     }

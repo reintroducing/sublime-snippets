@@ -1,8 +1,5 @@
 <snippet>
     <content><![CDATA[
-/**
-
-**/
 jQuery(document).ready(function() {
     ${1:main}.init();
 });

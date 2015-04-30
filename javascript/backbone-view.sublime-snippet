@@ -1,16 +1,12 @@
 <snippet>
     <content><![CDATA[
-var ${1:ViewName} = Backbone.View.extend({
-    /**
+'use strict';
 
-    **/
+var ${1:ViewName} = Backbone.View.extend({
     initialize: function() {
         ${2}
     },
 
-    /**
-
-    **/
     render: function() {
         return this;
     }

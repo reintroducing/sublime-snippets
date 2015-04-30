@@ -1,33 +1,11 @@
 <snippet>
     <content><![CDATA[
-/**
-Description.
-
-@requires
-
-@author [${1:Matt Przybylski}](mailto:${2:mprzybylski@sapient.com})
-
-@example
-**/
 ;(function(\$, window, document, undefined) {
     'use strict';
 
-    /* ----------------------------------------------------------------------------- *\
-       Private Properties
-    \* ----------------------------------------------------------------------------- */
-
     var pluginName = '${3:pluginName}',
-        defaults = {
+        defaults = {};
 
-        };
-
-    /* ----------------------------------------------------------------------------- *\
-       Constructor
-    \* ----------------------------------------------------------------------------- */
-
-    /**
-    @constructor
-    **/
     function ${4:Plugin}(element, options) {
         this.settings = \$.extend(true, {}, defaults, options);
         this.element = element;
@@ -36,22 +14,9 @@ Description.
         this._init();
     }
 
-    /* ----------------------------------------------------------------------------- *\
-       Private Methods
-    \* ----------------------------------------------------------------------------- */
-
-    /**
-    @method _init
-
-    @return {null}
-    **/
     ${4:Plugin}.prototype._init = function() {
         ${5}
     };
-
-    /* ----------------------------------------------------------------------------- *\
-       Plugin Initialization
-    \* ----------------------------------------------------------------------------- */
 
     \$.fn[pluginName] = function(options) {
         return this.each(function() {

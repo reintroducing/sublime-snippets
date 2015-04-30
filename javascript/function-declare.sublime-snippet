@@ -1,8 +1,5 @@
 <snippet>
     <content><![CDATA[
-/**
-
-**/
 function ${1:functionName}(${2:params}) {
     ${3}
 }

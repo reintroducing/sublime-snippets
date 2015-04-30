@@ -1,13 +1,12 @@
 <snippet>
     <content><![CDATA[
+'use strict';
+
 var ${1:Workspace} = Backbone.Router.extend({
     routes: {
         '': '${2:showHome}'
     },
 
-    /**
-
-    **/
     ${2:showHome}: function() {
         console.log('workspace.${2:showHome}()');
     }
