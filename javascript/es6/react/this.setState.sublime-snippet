@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+this.setState({
+    ${1:prop}: ${2:setting}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sst</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.js</scope> -->
+</snippet>
