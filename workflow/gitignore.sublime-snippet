@@ -42,6 +42,24 @@ Thumbs.db
 # Cache #
 ###################
 *.cache
+
+# Environment #
+###################
+.env
+.idea
+
+# Sass #
+###################
+.sass-cache/
+*.css.map
+
+# Node #
+###################
+node_modules
+
+# Personal #
+###################
+_internal
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>gitignore</tabTrigger>

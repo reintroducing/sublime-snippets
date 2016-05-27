@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+import React, {Component} from 'react';
+
+const ${1:ComponentName} = ComposedComponent => {
+    return class extends Component {
+        constructor(props) {
+            super(props);
+        }
+
+        render() {${2}
+            return <ComposedComponent {...this.props} />;
+        }
+    };
+};
+
+export default ${1:ComponentName};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>hoc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.js</scope> -->
+</snippet>

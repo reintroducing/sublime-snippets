@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+import React, {PropTypes} from 'react';
+
+const ${1:ComponentName} = (props) => {
+    return (
+        ${2:<div${3: className="${1:ComponentName}"}>
+            ${4}
+        </div>}
+    );
+};
+
+${1:ComponentName}.propTypes = {
+
+};
+
+${1:ComponentName}.defaultProps = {
+
+};
+
+export default ${1:ComponentName};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rsf</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.js</scope> -->
+</snippet>

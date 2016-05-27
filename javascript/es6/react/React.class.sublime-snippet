@@ -12,7 +12,9 @@ class ${1:ComponentName} extends Component {
 
     render() {
         return (
-            ${2:<div>${3}</div>}
+            ${2:<div${3: className="${1:ComponentName}"}>
+                ${4}
+            </div>}
         );
     }
 }
