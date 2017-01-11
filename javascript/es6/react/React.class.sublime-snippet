@@ -1,13 +1,10 @@
 <snippet>
     <content><![CDATA[
 import React, {Component, PropTypes} from 'react';
-import PureRenderMixin from 'react-addons-pure-render-mixin';
 
 class ${1:ComponentName} extends Component {
     constructor(props) {
         super(props);
-
-        this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
     }
 
     render() {

@@ -1,20 +1,29 @@
 <snippet>
     <content><![CDATA[
-import React, {Component} from 'react';
+import React, {Component, PropTypes} from 'react';
 
-const ${1:ComponentName} = ComposedComponent => {
-    return class extends Component {
-        constructor(props) {
-            super(props);
+export default EnhancedComponent => {
+    class ${1:ComponentName} extends Component {
+        render() {
+            return (
+                <EnhancedComponent
+                    {...this.props}
+                    ${2}
+                />
+            );
         }
+    }
 
-        render() {${2}
-            return <ComposedComponent {...this.props} />;
-        }
+    ${1:ComponentName}.propTypes = {
+
     };
-};
 
-export default ${1:ComponentName};
+    ${1:ComponentName}.defaultProps = {
+
+    };
+
+    return ${1:ComponentName};
+};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>hoc</tabTrigger>
