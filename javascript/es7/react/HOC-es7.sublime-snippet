@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+import React, {Component, PropTypes} from 'react';
+
+export default EnhancedComponent => {
+    return class ${1:ComponentName} extends Component {
+        static propTypes = {
+
+        };
+        static defaultProps = {
+
+        };
+
+        render() {
+            return (
+                <EnhancedComponent
+                    {...this.props}
+                    ${2}
+                />
+            );
+        }
+    };
+};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>hoc7</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.js</scope> -->
+</snippet>
