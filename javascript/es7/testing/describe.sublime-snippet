@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-@include breakpoint(${1:\$bp-desktop}) {
+describe('${1:Suite Name}', () => {
     ${2}
-}
+});
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bpd</tabTrigger>
+    <tabTrigger>describe</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.jade</scope> -->
+    <!-- <scope>source.js</scope> -->
 </snippet>
